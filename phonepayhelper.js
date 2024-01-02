@@ -4,6 +4,7 @@ require("dotenv").config();
 const salt_key = process.env.SALT_KEY;
 
 function payment(body) {
+  
   return new Promise((resolve, reject) => {
     const { amount, tax } = body;
     const totalamount = amount + tax;
