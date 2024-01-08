@@ -18,7 +18,7 @@ function payment(body) {
         redirectUrl: "https://webhook.site/redirect-url",
         redirectMode: "REDIRECT",
         callbackUrl: "https://webhook.site/callback-url",
-        mobileNumber: "9999999999",
+        mobileNumber: "9999999998",
         paymentInstrument: {
           type: "PAY_PAGE",
         },
